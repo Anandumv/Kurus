@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+    <link href="css/custom.css" rel="stylesheet">
+  
+
+    <!-- Custom Fonts & Icons -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/icomoon-social.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+</head>
+
+<body> 
+
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="app"></a>
+            </div>
+           
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="logout.php">Logout</a></li>
+                    <li><a href="uploads/upload.php">Upload</a></li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+    <br><br><br><br>
+    <h3> Your app was uploaded <?php echo $row['username']; ?></h3>
+<div id="slidy-container">
+  <figure id="slidy">
+    <img src="images/amazon.jpg" data-caption="Shopping">
+     <img src="images/wp.png"data-caption="Messengers" >
+     <img src="images/game.jpg" data-caption="Games">
+     <img src="images/Music.jpg" data-caption="Entertainment">
+  </figure>
+</div>
+<script src="cssslidy.js"></script>
+<script>cssSlidy();</script>
+<br><br><br><br><br><br><br>
+<H1>Top Apps and Games</H1>
+<div class="section section-white">
+            <div class="container">
+                <div class="row"><BR><BR><BR><BR><BR><BR>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+
+                            <a href="enter.html"><img  src="images/ent.jpg"> <br><strong>Entertainment</strong></a>
+                        
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+                            
+                           <a href="edu.html"><img src="images/edu.png" ><br> <strong>Education and Learning</strong></a>
+                        
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+                            
+                            <a href="pro.html"><img src="images/pro.jpg" ><br> <strong>Productivity</strong></a>
+                        
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+                            <a href="soc.html"><img src="images/mes.jpg" ><br> <strong>Social</strong></a>
+                            
+                        </div>
+                    </div>
+                    
+        
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+                           
+                            <a href="utl.html"><img src="images/utility.jpg" ><br> <strong>Utilities and Tools</strong></a>
+                             
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+</div> 
+</body>
+</html>
